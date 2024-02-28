@@ -1,5 +1,5 @@
 fun piramidaterbalik(bin: Int) {
-    for (a in bin - 1 downTo 1) {
+    for (a in bin downTo 1) {
         for (b in 1..bin - a) {
             print(" ")
         }
